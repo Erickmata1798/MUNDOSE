@@ -1,4 +1,4 @@
-#Logo{
+.header__nav__logo{
 background-color:transparent;
 width: 129px;
 height: 30px;
@@ -9,31 +9,31 @@ padding-bottom: 20px;
 
 body{
 background: transparent url("/Users/erickmatamata/Desktop/MUNDOSE/assets/images/slider-1.png") 0% 0% repeat padding-box;
+background-size: cover;
 margin-left: 0px;
 margin-right: 0px;
 }
 
-nav{
+.header__nav{
     
     border-bottom: solid 2px orange ;
     
 }
-#Lista{
+.header__ul{
     list-style: none;
     width: 800px;
     padding-top: 20px;
     padding-left: 40px;
     float: right;
-    
-    
 }
 
-#Lista li{
+.header__ul__elements{
     display: inline-block;
     width: 5em;
     padding-left: 30px;
     margin-right: 30px;
 }
+
 
 a{
     color: white;
@@ -44,7 +44,7 @@ p{
     color: white;
 }
 
-#title{
+.main__text__elements__title{
 
     font-family: 'Poppins' ;
     font-size: 48px;
@@ -53,17 +53,17 @@ p{
     
 }
 
-#Parrafo{
+.main__text__elements__secondary{
     font-family: 'Roboto';
     letter-spacing: 0.22px;
 }
 
-#texto{
+.main__text{
     padding-top: 90px;
     padding-left: 90px;
 }
 
-#btn{
+.button{
 
     border-radius: 25px;
     background-color: #e0752f;
