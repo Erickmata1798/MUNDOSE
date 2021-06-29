@@ -1,0 +1,27 @@
+.header__nav__logo {
+    background-color: transparent;
+    width: 129px;
+    height: 30px;
+    padding-top: 33px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+  }
+  
+  .header__nav {
+    border-bottom: solid 2px orange;
+  }
+  
+  .header__ul {
+    list-style: none;
+    width: 800px;
+    padding-top: 20px;
+    padding-left: 40px;
+    float: right;
+  }
+  
+  .header__ul__elements {
+    display: inline-block;
+    width: 5em;
+    padding-left: 30px;
+    margin-right: 30px;
+  }
